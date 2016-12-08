@@ -1,0 +1,295 @@
+
+/** Font Squirrel */
+
+/** @font-face {
+	font-family: 'alegreyablack_italic';
+    src: url('fonts/alegreya-blackitalic-webfont[1].woff2') format('woff2'),
+         url('fonts/alegreya-blackitalic-webfont[1].woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'changaregular';
+    src: url('../fonts/changa-regular-webfont[1].woff2') format('woff2'),
+         url('../fonts/changa-regular-webfont[1].woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/** Google Fonts */
+
+/**
+
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+/** Unnecessary Divs */
+
+#wrapper {
+	max-width: cover;
+	margin: auto;
+}
+
+.container {
+ 	margin: auto;
+}
+
+/** Body */
+
+body {
+	background-image: url(../img/dinobackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+/** img.Diego {
+	border-radius: 100%;
+	width: 20%;
+	height: 100px;
+	margin: 10px;
+	padding-left: 30px;
+	position: absolute;
+} */
+
+img.gif {
+	padding: 10px 20px 0;
+}
+
+h1#title {
+	display: block;
+	text-align: center;
+	text-shadow: 5px 5px 5px black;
+	font-family: 'alegreyablack_italic';
+	font-size: 100px;
+	margin: auto;
+	padding: auto;
+	font-family: 'Merriweather', serif;
+} 
+
+nav {
+	/** background-color: #5fc47a; */
+	background: radial-gradient(#5fc47a 45%, transparent);
+	text-align: center;
+	opacity: 0.5;
+}
+
+a.headerlinks {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Merriweather', serif;
+}
+
+a:hover {
+	color: darkgreen;
+}
+
+
+
+/** Header */
+
+
+
+header {
+	background-image: url(../img/Smilodon_roar.jpg); 
+	/** background-image: radial-gradient(darkgreen 50%, transparent50%) , url(http://vignette1.wikia.nocookie.net/dinosaurs/images/5/5b/Smilodon_roar.jpg/revision/latest?cb=20160211161659); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 30px;
+	border: 5px solid darkgreen;
+	width: 90%;
+	height: 700px;
+	margin: auto;
+}
+
+
+
+/** Sections */
+
+
+
+section {
+	text-align: center;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+}
+
+/** Evolution */
+
+img.evo {
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+p.para {
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 100px;
+	border: 5px solid darkgreen;
+	background-color: #5fc47a;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/** Hiearchy */
+
+p.para2 {
+	border: 5px solid darkgreen;
+	background-color: #5fc47a;
+	padding: 20px;
+	margin-top: 45px;
+	margin-left: 200px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img.hie {
+	border-radius: 25%;
+	margin-right: 20px;
+}
+
+/** Hunting */
+
+img.round {
+	border-radius: 100%;
+	margin-left: 70px;
+	width: 60%;
+}
+
+p.para3 {
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 100px;
+	border: 5px solid darkgreen;
+	background-color: #5fc47a;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/** Behavior */
+
+p.para4 {
+	border: 5px solid darkgreen;
+	background-color: #5fc47a;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 250px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img.beh {
+	border-radius: 25%;
+	margin-top: 10px;
+	margin-right: 150px;
+}
+
+/** Extinction */
+
+p.para5 {
+	padding: 20px;
+	margin-top: 30px;
+	margin-right: 100px;
+	border: 5px solid darkgreen;
+	background-color: #5fc47a;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img.ext {
+	border-radius: 25%;
+	margin-left: 100px;
+}
+
+
+div.left {
+	float: left;
+	width: 40%;
+}
+
+div.left2 {
+	float: left;
+	width: 50%;
+}
+
+div.right {
+	float: right;
+	width: 60%;
+}
+
+div.right2 {
+	float: right;
+	width: 50%;
+}
+
+div.clear {
+	clear: both;
+}
+
+hr {
+	width: 50%;
+	margin-top: 50px;
+	color: green;
+}
+
+
+
+/** Footer */
+
+
+
+footer {
+	text-align: center;
+	margin: 10px;
+}
+
+/**
+
+img.Diego {
+	border-radius: 100%;
+	width: 70px;
+	height: 50px;
+}
+
+div.lDiego {
+	float: left;
+	width: 30%;
+}
+
+div.rDiego {
+	float: right;
+	width: 30%;
+}
+
+*/
+
+div.home {
+	float: left;
+}
+
+div.copyright {
+	float: right;
+}
+
+div.clear {
+	clear: both;
+}
+
+a.footerlinks {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
